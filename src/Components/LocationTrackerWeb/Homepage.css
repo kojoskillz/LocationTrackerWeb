@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:linear-gradient(to bottom,rgb(4, 3, 39),rgb(3, 8, 46) 20%);
+}
+
+.homepage_img{
+    background-image:url(../Assets/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height: 100vh;
+    -o-object-fit: cover;
+    object-fit: cover;
+ 
+}
+
+
+.input{
+    width: 70vw;
+    height: 6vh;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    display: grid;
+    place-content: center;
+    border-radius: 9px;
+    outline: none;
+    background: white;
+
+}
+
+::placeholder{
+    font-size: 16.5px;
+    display: grid;
+    place-content: left;
+}
+
+
+.img1{
+    background-image: url(../Assets/img3.jpg);
+    background-size:cover;
+    background-position: center;
+    height: 70vh;
+    margin-bottom: 8rem;
+}
+
+button{
+    background-color: rgb(35, 35, 219);
+}
